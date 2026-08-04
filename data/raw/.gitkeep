@@ -1,0 +1,2 @@
+This file exists so the empty data/raw/ folder is tracked by git.
+Nothing else in this folder should ever be committed — see .gitignore.

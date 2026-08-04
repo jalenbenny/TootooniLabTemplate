@@ -1,0 +1,43 @@
+# --- Data safety: raw data is never committed ---
+data/raw/*
+!data/raw/.gitkeep
+
+# Common data file types, anywhere in the repo
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.sav
+*.dta
+*.sqlite
+*.db
+
+# Secrets / environment
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large model / output artifacts (adjust per project as needed)
+*.pt
+*.h5
+*.ckpt

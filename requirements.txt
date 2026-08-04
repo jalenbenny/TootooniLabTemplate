@@ -1,0 +1,4 @@
+# Pin exact versions once dependencies are known.
+# e.g.
+# pandas==2.2.2
+# scikit-learn==1.5.0
