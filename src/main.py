@@ -2,7 +2,7 @@
 Entry point for the reproducible pipeline.
 
 Replace this with your actual pipeline code. Anything in src/ should be
-code someone else can trust and re-run — reviewed, not exploratory.
+code someone else can trust and re-run.
 """
 
 def main():
